@@ -125,14 +125,16 @@
 					   data-videoparallax="true"
 					   data-videooverlaycolor="#000000"
 					   data-videooverlayopacity="0.6"
-						data-sound="false">
+					   data-sound="false">
 		<div class="section-inner">
 			 
 		<!-- REVOLUTION SLIDER -->
 		<div class="typed-container">
 			<div class="typed-header">
-				<h2 id="static-name">Dylan Nguyen</h2>
-				<h3 id="typed-name"><span class="typed-cursor"></span></h3>
+				<h2 id="static-name">Dylan Nguyen 
+				<br>
+				<span id="typed-name"></span><span class="typed-cursor"></span></h2>
+				<!-- <h3 id="typed-name"><span class="typed-cursor"></span></h3> -->
 			</div>
 		</div> <!-- END .rev-slider-container -->        
 		<!-- REVOLUTION SLIDER -->
@@ -599,10 +601,13 @@
 <script>
 	$(function(){
 		$('#typed-name').typed({
-			strings: ['Front End Developer^10', 'Works For a Living^10', 'But Lives to Make Cool Things^10'],
+			strings: ['Front End Developer', 'Works For a Living', 'But Lives to Make Cool Things'],
 			typeSpeed: 50,
 			loop: true,
-			startDelay: 100
+			startDelay: 1000,
+			backDelay: 500,
+			showCursor: true,
+			cursorChar: "|"
 		})
 	})
 </script>

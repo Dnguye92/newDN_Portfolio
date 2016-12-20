@@ -1025,8 +1025,8 @@ nav#main-nav .nav-inner ul li ul li a {
 .typed-container {
 	width: 100%;
 	position: relative;
-	padding-top: 20em;
-	padding-bottom: 22em;
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
 
 .typed-container .typed-header {
@@ -1034,11 +1034,13 @@ nav#main-nav .nav-inner ul li ul li a {
 }
 
 #static-name {
+	display: block;
 	text-align: center;
 	font-family: 'Ubuntu Mono', monospace;
 }
 
 #typed-name, .typed-cursor {
+	font-size: 48px;
 	display: inline-block;
 	text-align: center;
 	font-family: 'Ubuntu Mono', monospace;
