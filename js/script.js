@@ -534,3 +534,4 @@ function splitSection() {
 	}
 	
 }
+console.log("I see that you're peeking under the hood to look at my code.. if you'd like to know a little more about myself\n go to linkedin.com/in/devdylannguyen")
