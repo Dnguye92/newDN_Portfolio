@@ -746,6 +746,7 @@ nav#main-nav .nav-bg {
 	}
 	
 nav#main-nav .nav-logo {
+
 	position: absolute;
 	z-index: 100001;
 	top: 100px;
@@ -763,6 +764,9 @@ nav#main-nav .nav-logo {
 	top: 40px;
 	opacity: 1; filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	}
+.nav-logo h4 {
+	font-family: 'Ubunto Mono', monospace;
+}
 
 .nav-logo h4:before {
 	content: "\003c/";
