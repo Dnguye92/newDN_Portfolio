@@ -1044,14 +1044,14 @@ nav#main-nav .nav-inner ul li ul li a {
 }
 
 #typed-name, .typed-cursor {
-	font-size: 48px;
+	font-size: 42px;
 	display: inline-block;
 	text-align: center;
 	font-family: 'Ubuntu Mono', monospace;
 }
 
 .typed-cursor{
-			font-size: 58px;
+			font-size: 42px;
             opacity: 1;
             font-weight: 100;
             -webkit-animation: blink 0.7s infinite;
@@ -1710,6 +1710,12 @@ section { }
 	z-index: 1;
 	padding: 120px 0;
 	}
+
+.split-mini-content p {
+	font-family: 'Ubuntu Monospace', monospace;
+	font-size: 18px;
+}
+
 	
 .split-full-content {
 	padding-left: 40px;
@@ -1719,7 +1725,7 @@ section { }
 .split-mini-content {
 	padding-left: 40px;
 	padding-right: 40px;
-	max-width: 400px;
+	max-width: 450px;
 	margin: 0 auto;
 	}
 	

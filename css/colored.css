@@ -16,3 +16,9 @@ nav#main-nav [data-bigletter]:before { color: #ffffff; }
 footer #backtotop:after { background: #5acae6; }
 .filter li a:after { background: #5acae6; }
 figure.imgoverlay.overlay-border > a { border-color: #5acae6; }
+
+#github {
+	color: #5acae6;
+	font-family: 'Ubuntu Mono', monospace;
+	font-weight: 900;
+}
