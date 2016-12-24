@@ -3,6 +3,7 @@
  	Script - All Custom frontend jQuery scripts & functions
  
 -----------------------------------------------------------------------------------*/
+
 setTimeout(function() { jQuery("body").addClass("loading"); },200); // Start loading animation
 
 jQuery(window).load(function($) {		
