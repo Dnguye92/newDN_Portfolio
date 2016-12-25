@@ -1177,6 +1177,19 @@ nav#main-nav .nav-inner ul li ul li a {
 	content: "\003e";
 }
 
+#about {
+	font-family: 'Ubuntu Monospace', monospace;
+	padding-bottom: 5%;
+}
+
+#about:before {
+	content: "\003c/";
+}
+
+#about:after {
+	content: "\003e";
+}
+
 /*---------------------------------------------- 
 8. SECTION
 ------------------------------------------------*/
