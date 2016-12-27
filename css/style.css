@@ -89,8 +89,12 @@ div h1:first-child, div h2:first-child, div h3:first-child, div h4:first-child, 
 
 .alttitle { font-family: 'Lato'; font-weight: 300; margin-top: 10px; }
 .alttitle b, .alttitle strong { font-weight: 400; }
-.title-minimal { text-transform: uppercase; letter-spacing: 0.15em; }
+.title-minimal { text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Ubuntu Monospace', monospace;}
 .title-ultraminimal { text-transform: uppercase; letter-spacing: 0.4em; }
+
+.alttitle, .p-title {
+	font-family: 'Ubuntu Monospace', monospace;
+}
 
 [data-bigletter] { position: relative; z-index: 1; }
 [data-bigletter]:before {
@@ -261,6 +265,7 @@ a {
 p a {
 	color: #0d0d0d;
 	position: relative;
+	font-weight: 900;
 	}
 	
 p a:after {
@@ -1202,6 +1207,18 @@ section { }
 .horizontalsection .horizontalinner {
 	padding: 120px 0;
 	}
+
+#experience {
+	font-family: 'Ubuntu Monospace', monospace;
+}
+
+#experience:before {
+	content: "\003c/";
+}
+
+#experience:after {
+	content: "\003e";
+}
 		
 
 
