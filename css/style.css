@@ -1221,7 +1221,17 @@ section { }
 }
 		
 
+#portfolio {
+	font-family: 'Ubuntu Monospace', monospace;
+}
 
+#portfolio:before {
+	content: "\003c/";
+}
+
+#portfolio:after {
+	content: "\003e";
+}
 
 /*---------------------------------------------- 
 9. PAGETITLE

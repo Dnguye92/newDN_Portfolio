@@ -296,7 +296,7 @@
 							<h4 class="title-minimal"><strong>Namedrop</strong></h4>
 							<div class="separator-small"><span></span></div>
 							<h6 class="alttitle">Front-End Developer</h6>
-							<p class="p-title">Namedrop is a pronounciation service. Rebuilt legacy code with ES6 standards and the Aurelia framework. View it <a target="_blank" href="http://www.namedrop.io">here</a>.</p>
+							<p class="p-title">Namedrop is a pronounciation service. Rebuilt legacy front-end code with ES6 standards and the Aurelia framework. View it <a target="_blank" href="http://www.namedrop.io">here</a>.</p>
 					  </div>
 				</div> <!-- END .column-section -->
 					<!-- Team Member 1 -->
@@ -324,7 +324,7 @@
 							<h4 class="title-minimal"><strong>Codify Academy</strong></h4>
 							<div class="separator-small"><span></span></div>
 							<h6 class="alttitle">Front-End Web Developer</h6>
-							<p class="p-title">An intense 16-week program run by developers that teach the fundamentals of UI &amp; front-end web development. The course dives deep into teaching programming languages such as HTML5, CSS3, Javascript, jQuery, &amp; AJAX. This also includes frameworks and libraries such as Twitter Bootstrap &amp; JSON. Check out the website and the course <a target="_blank" href="http://www.codifyacademy.com">here</a>.</p>
+							<p class="p-title">An intense 16-week program run by developers that teach the fundamentals of UI &amp; front-end web development. The course dives deep into teaching programming languages such as HTML5, CSS3, Javascript, jQuery, &amp; AJAX. This also includes frameworks and libraries such as Twitter Bootstrap &amp; Angular. Check out the website and the course <a target="_blank" href="http://www.codifyacademy.com">here</a>.</p>
 					  </div>
 				</div> <!-- END .column-section -->
 					<!-- Team Member 3 -->
@@ -342,7 +342,7 @@
 			
 			
 			<div class="main-title wrapper align-center">
-				<h2 data-bigletter="W"><strong>Work</strong></h2>
+				<h3 id="portfolio"><span id="typed-portfolio"></span><span class="typed-cursor"></span></h3>
 				<div class="separator"><span></span></div>
 				<h5 class="alttitle title-minimal">Let's point out what we can help you with</h5>
 				
@@ -605,6 +605,17 @@
 	$(function(){
 		$('#typed-experience').typed({
 			strings: ["My Experience", "My Experience"],
+			typeSpeed: 50,
+			loop: true,
+			startDelay: 3000,
+			backDelay: 3000,
+			showCursor: true,
+			cursorChar: "|"
+		})
+	})
+	$(function(){
+		$('#typed-portfolio').typed({
+			strings: ["Portfolio", "Portfolio"],
 			typeSpeed: 50,
 			loop: true,
 			startDelay: 3000,
