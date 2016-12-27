@@ -1853,9 +1853,13 @@ section { }
 	}
 	.split-right .split-bg { left: inherit; right: 0; z-index:0; }
 
-.split-half .split-bg { width: 53%; }
+.split-half .split-bg { width: 54%; }
 .split-onethird .split-bg { width: 33%; }
 .split-twothird .split-bg { width: 67%; }
+
+#split-bg {
+	width: 60%;
+}
 
 	
 	
