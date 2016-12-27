@@ -47,7 +47,7 @@ h6 { font-size: 15px; line-height: 22px; }
 .split-half .split-wrapped-content { width: 325px; }
 .split-onethird .split-wrapped-content  { width: 216px; }
 .split-twothird .split-wrapped-content { width: 432px; }
-.split-mini-content { max-width: 300px; }
+/*.split-mini-content { max-width: 300px; }*/
 
 .one-half  { width: 340px; }
 .one-third { width: 210px; }

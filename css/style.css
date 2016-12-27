@@ -1178,16 +1178,16 @@ nav#main-nav .nav-inner ul li ul li a {
 	content: "\003e";
 }
 
-#about {
+#about-text {
 	font-family: 'Ubuntu Monospace', monospace;
 	padding-bottom: 5%;
 }
 
-#about:before {
+#about-text:before {
 	content: "\003c/";
 }
 
-#about:after {
+#about-text:after {
 	content: "\003e";
 }
 
@@ -1853,7 +1853,7 @@ section { }
 	}
 	.split-right .split-bg { left: inherit; right: 0; z-index:0; }
 
-.split-half .split-bg { width: 50%; }
+.split-half .split-bg { width: 53%; }
 .split-onethird .split-bg { width: 33%; }
 .split-twothird .split-bg { width: 67%; }
 
