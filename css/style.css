@@ -1128,6 +1128,7 @@ nav#main-nav .nav-inner ul li ul li a {
 }
 
 .skillbar-title span {
+	font-family: 'Ubuntu Monospace', monospace;
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
@@ -1812,7 +1813,7 @@ section { }
 .split-wrapped-content, .split-full-content, .split-mini-content {
 	position: relative;
 	z-index: 1;
-	padding: 120px 0;
+	padding: 79px 0;
 	}
 
 .split-mini-content p {
