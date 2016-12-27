@@ -87,7 +87,7 @@ blockquote { margin: 50px; }
 #page-title .section-inner { padding: 100px 0; }
 #blog-comments { margin-top: 100px; }
 #blog-leavecomment { margin-top: 100px; }
-.split-wrapped-content, .split-full-content, .split-mini-content { padding: 100px 0; }
+.split-wrapped-content, .split-full-content, .split-mini-content {}
 .vertical-center { padding-top: 0; padding-bottom: 0; }
 .section-inner { padding-top: 100px; }
 .notoppadding .section-inner { padding-top: 0px; }
