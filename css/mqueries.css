@@ -169,7 +169,7 @@ nav#main-nav .nav-inner ul li:hover > ul, nav#main-nav .nav-inner ul li.hovered 
 .split-twothird { width: 100% !important; }
 .split-wrapped-content, .split-full-content, .split-mini-content { float: none !important; margin: 0 auto !important; width: 480px !important; padding-left: 0 !important; padding-right:0 !important; }
 .split-bg { width: 100% !important; }
-.vertical-center { padding-top: 100px; padding-bottom: 100px; }
+.vertical-center { padding-top: 100%; }
 
 .column-section { margin-top: 50px; }
 div .column-section:first-child { margin-top: 0px; }
