@@ -2428,6 +2428,7 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 		
 .socialmedia-widget li.facebook a:before { content:"\f09a"; }
 .socialmedia-widget li.twitter a:before { content:"\f099" }
+.socialmedia-widget li.github a:before { content: "\f113"; }
 .socialmedia-widget li.tumblr a:before { content: "\f173"; }
 .socialmedia-widget li.vimeo a:before { content: "\f194"; }
 .socialmedia-widget li.dribbble a:before { content: "\f17d"; }
@@ -2446,6 +2447,7 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 
 .socialmedia-widget li.facebook:hover a { color: #446ebf; }
 .socialmedia-widget li.twitter:hover a { color: #39aadc; }
+.socialmedia-widget li.github:hover a { color: #800080; }
 .socialmedia-widget li.tumblr:hover a { color: #4c6781; }
 .socialmedia-widget li.vimeo:hover a { color: #15c9f5; }
 .socialmedia-widget li.dribbble:hover a { color: #f14980; }
