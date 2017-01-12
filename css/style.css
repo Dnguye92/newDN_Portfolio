@@ -1233,6 +1233,18 @@ section { }
 	content: "\003e";
 }
 
+#contact-text, #contact {
+	font-family: 'Ubuntu Monospace', monospace;
+}
+
+#contact-text:before {
+	content: "\003c/";
+}
+
+#contact-text:after {
+	content: "\003e";
+}
+
 /*---------------------------------------------- 
 9. PAGETITLE
 ------------------------------------------------*/
@@ -1540,6 +1552,7 @@ section { }
 	.align-center .filter li { padding: 0 10px 10px 10px; }
 		
 .filter li a {
+	font-family: 'Ubuntu Monospace', monospace;
 	display: block;
 	position: relative;
 	font-family: "Lato";
