@@ -1,4 +1,4 @@
-/*---------------------------------------------- 
+---------------------------------------------- 
 0. RESET & CLEARFIX
 ------------------------------------------------*/
 html, body, div, span, applet, object, iframe,
@@ -35,8 +35,11 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; visibility: hidden; }
 
 
-
-
+/*Include Fontawesome webfont*/
+@font-face {
+	font-family: Fontawesome;
+	src: url('fontawsome-webfont.woff'), url('fontawesome-webfont.woff') format('woff');
+}
 /*---------------------------------------------- 
 1. BASICS
 ------------------------------------------------*/
@@ -216,6 +219,7 @@ select option {
 	}
 	
 label {
+	font-family: 'Ubuntu Monospace', monospace;
 	line-height: 24px;
 	margin-bottom: 5px;
 	width: 100%;
@@ -826,7 +830,7 @@ nav#main-nav .nav-inner ul li {
 	
 nav#main-nav .nav-inner ul li a {
 	display: inline-block;
-	font-family: 'Montserrat'; 
+	font-family: 'Ubuntu Monospace', monospace;
 	font-weight: 700;
 	font-size: 18px;
 	letter-spacing: 0.1em;
@@ -2747,4 +2751,4 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 21. CUSTOM STYLE
 ------------------------------------------------*/
 
-/*YOUR CUSTOM CSS*/
+/*YOUR CUSTOM CSS
