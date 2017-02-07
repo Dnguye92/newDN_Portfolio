@@ -155,7 +155,7 @@ nav#main-nav .nav-logo { height: 40px; }
 nav#main-nav .nav-logo img { height: 40px; }
 nav#main-nav.nav-visible .nav-logo { top: 20px; }
 nav#main-nav.nav-visible .nav-social { bottom: 20px; }
-nav#main-nav .nav-inner ul { margin: 0 !important; }
+nav#main-nav .nav-inner ul { margin: 0 !important; padding-left: 0;}
 nav#main-nav .nav-inner ul li { margin: 10px auto 0 auto; display: table; }
 nav#main-nav .nav-inner ul li:first-child { margin-top: 0; }
 nav#main-nav .nav-inner ul li a { font-size: 14px; line-height: 24px; }

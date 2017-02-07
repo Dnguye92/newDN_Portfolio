@@ -22,3 +22,9 @@ figure.imgoverlay.overlay-border > a { border-color: #5acae6; }
 	font-family: 'Ubuntu Mono', monospace;
 	font-weight: 900;
 }
+
+
+#resume {
+	color: #5acae6;
+	font-weight: 900;
+}

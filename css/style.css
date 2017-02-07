@@ -1338,7 +1338,6 @@ section { }
 	left: 0;
 	}
 
-
 	
 /*---------------------------------------------- 
 11. PAGINATION
@@ -2744,11 +2743,3 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 .bordered.big-border .fixed-pagination li.next { right: 60px; }
 .bordered.big-border .tp-bullets.simplebullets.round { width: 25px; right: -51px !important; }
 .bordered.big-border .owl-controls .owl-buttons div { width: 60px; height: 60px; line-height: 60px; top: -30px; }
-
-
-
-/*---------------------------------------------- 
-21. CUSTOM STYLE
-------------------------------------------------*/
-
-/*YOUR CUSTOM CSS
