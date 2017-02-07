@@ -237,6 +237,10 @@ h6 { font-size: 14px; line-height: 20px; }
 	text-align: center;
 }
 
+#skillbar-section {
+	padding-left: 2em;
+}
+
 #page-content { min-width: 260px; }
 .wrapper { width: 260px; }
 .wrapper-small { width: 260px; }
@@ -310,7 +314,7 @@ h6 { font-size: 14px; line-height: 20px; }
 .single-pagination li.prev a .pagination-icon:first-child { display: inline-block !important; margin: 0 10px 0 0 !important; }
 .single-pagination li.prev a .pagination-icon:before { content: "\e686" !important; }
 #iamNU { display: none; }
-#typed-name { font-size: 24px; }
+#typed-name { font-size: 18px; }
 #static-name { font-size: 16px; }
 .split-wrapped-content, .split-full-content, .split-mini-content { padding-top: 0; }
 #home { background-color: black; }
