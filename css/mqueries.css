@@ -233,6 +233,10 @@ h6 { font-size: 14px; line-height: 20px; }
 .title-minimal { letter-spacing: 0.1em; }
 .title-ultraminimal { letter-spacing: 0.2em; }
 
+#about-text {
+	text-align: center;
+}
+
 #page-content { min-width: 260px; }
 .wrapper { width: 260px; }
 .wrapper-small { width: 260px; }
@@ -312,6 +316,8 @@ h6 { font-size: 14px; line-height: 20px; }
 #home { background-color: black; }
 #skills { padding: 15px 0 0 0; }
 }
+
+
 
 @media only screen and (max-width: 320px) {
 #iamNU { display: none; }
