@@ -37,8 +37,8 @@ audio:not([controls]) { display: none; }
 
 /*Include Fontawesome webfont*/
 @font-face {
-	font-family: Fontawesome;
-	src: url('fontawsome-webfont.woff'), url('fontawesome-webfont.woff') format('woff');
+	font-family: 'Fontawesome';
+	src: url('fontawesome-webfont.woff') format('woff');
 }
 /*---------------------------------------------- 
 1. BASICS
@@ -151,7 +151,7 @@ input[type=text], input[type=password], input[type=email], textarea {
 	-khtml-border-radius:0px; 
 	-webkit-border-radius:0px;
 	}
-	.text-light input[type=text], .text-light input[type=password], .text-light input[type=email], .text-light textarea { border-color: #666666; color: #ffffff; }
+	.text-light input[type=text], .text-light input[type=password], .text-light input[type=email], .text-light textarea { border-color: black; color: #ffffff; }
 		
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus { border-color: #0d0d0d; }
 .text-light input[type=text]:focus, .text-light input[type=password]:focus, .text-light input[type=email]:focus, .text-light textarea:focus { border-color: #ffffff; }
@@ -2431,7 +2431,7 @@ a.sr-button2:hover { border-color: #ffffff; color: #0d0d0d; }
 	.socialmedia-widget.align-center li, .align-center .socialmedia-widget li { margin: 0 6px 0 6px !important; }
 	
 .socialmedia-widget li a {
-	font: normal normal normal 12px/1 FontAwesome;
+	font: normal normal normal 12px/1 'Fontawesome';
   	font-size: 15px;
   	text-rendering: auto;
   	-webkit-font-smoothing: antialiased;

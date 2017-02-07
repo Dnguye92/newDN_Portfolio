@@ -237,7 +237,7 @@ h6 { font-size: 14px; line-height: 20px; }
 .wrapper { width: 260px; }
 .wrapper-small { width: 260px; }
 
-.split-wrapped-content, .split-full-content, .split-mini-content { width: 260px !important; }
+.split-wrapped-content, .split-full-content, .split-mini-content { width: 90% !important;}
 .vertical-center { padding-top: 80px; padding-bottom: 80px; }
 
 .footer-inner { width: 260px !important; }
@@ -251,7 +251,7 @@ h6 { font-size: 14px; line-height: 20px; }
 .gallery-col5 li { width: 100%;  }
 .gallery-col6 li { width: 50%;  }
 
-.masonry.masonry-spaced { width: calc(120% - 40px); margin-left: 20px; margin-bottom: -40px; }	
+.masonry.masonry-spaced { width: calc(120% - 40px); margin-left: 30px; margin-bottom: -40px; }	
 .masonry-spaced .masonry-item { margin-right: 20px; margin-bottom: 40px; }
 
 .owl-controls { bottom: 5px; }
@@ -305,5 +305,19 @@ h6 { font-size: 14px; line-height: 20px; }
 .single-pagination li.next a .pagination-icon:before { content: "\e684" !important; }
 .single-pagination li.prev a .pagination-icon:first-child { display: inline-block !important; margin: 0 10px 0 0 !important; }
 .single-pagination li.prev a .pagination-icon:before { content: "\e686" !important; }
+#iamNU { display: none; }
+#typed-name { font-size: 24px; }
+#static-name { font-size: 16px; }
+.split-wrapped-content, .split-full-content, .split-mini-content { padding-top: 0; }
+#home { background-color: black; }
+#skills { padding: 15px 0 0 0; }
+}
 
+@media only screen and (max-width: 320px) {
+#iamNU { display: none; }
+#typed-name { font-size: 24px; }
+#static-name { font-size: 16px; }
+.split-wrapped-content, .split-full-content, .split-mini-content { padding-top: 0; }
+#home { background-color: black; }
+#skills { padding: 15px 0 0 0; }
 }
